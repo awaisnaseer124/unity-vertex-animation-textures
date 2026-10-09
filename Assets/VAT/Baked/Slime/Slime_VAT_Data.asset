@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e460b190e3b4464f9a341bf7310c106, type: 3}
+  m_Name: Slime_VAT_Data
+  m_EditorClassIdentifier: Assembly-CSharp::VAT.VATAnimationData
+  mesh: {fileID: 4300000, guid: 50f15493be3e7dd4683170d633f58cc4, type: 2}
+  material: {fileID: 2100000, guid: 02ebb10926b34004cb7193f2367dc912, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 02ebb10926b34004cb7193f2367dc912, type: 2}
+  positionTexture: {fileID: 2800000, guid: 533840b3d3486614b8bb6cc5bac8dd9e, type: 2}
+  normalTexture: {fileID: 2800000, guid: 462235b16c6086c47848052c76c20cba, type: 2}
+  vertexCount: 2868
+  clips:
+  - name: Attack
+    startFrame: 0
+    frameCount: 20
+    fps: 30.4
+    loop: 0
+  - name: Death
+    startFrame: 20
+    frameCount: 14
+    fps: 31.199999
+    loop: 0
+  - name: Idle
+    startFrame: 34
+    frameCount: 75
+    fps: 30
+    loop: 1
+  - name: Walk
+    startFrame: 109
+    frameCount: 25
+    fps: 29.999998
+    loop: 1
+  defaultClip: 3
+  sourcePrefab: {fileID: 919132149155446097, guid: 50569c6f9bbae96429c1286a0ea9a94c, type: 3}
+  sourceClips:
+  - {fileID: 5424966009276265124, guid: 50569c6f9bbae96429c1286a0ea9a94c, type: 3}
+  - {fileID: 4531912406860793044, guid: 50569c6f9bbae96429c1286a0ea9a94c, type: 3}
+  - {fileID: 4749002936024538594, guid: 50569c6f9bbae96429c1286a0ea9a94c, type: 3}
+  - {fileID: 6793611496562888960, guid: 50569c6f9bbae96429c1286a0ea9a94c, type: 3}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e460b190e3b4464f9a341bf7310c106, type: 3}
+  m_Name: Skeleton_VAT_Data
+  m_EditorClassIdentifier: Assembly-CSharp::VAT.VATAnimationData
+  mesh: {fileID: 4300000, guid: 06ffc4c572b4d3647857aa767b58f4d3, type: 2}
+  material: {fileID: 2100000, guid: 4ee1fcdbc05cbad46bf95d91b3bdfadb, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 4ee1fcdbc05cbad46bf95d91b3bdfadb, type: 2}
+  positionTexture: {fileID: 2800000, guid: 91f9a5c4d57f25a4297e4dd298504ac3, type: 2}
+  normalTexture: {fileID: 2800000, guid: dc80802113e8b9249a201b93fc202ed8, type: 2}
+  vertexCount: 1979
+  clips:
+  - name: Attack
+    startFrame: 0
+    frameCount: 29
+    fps: 29.999998
+    loop: 0
+  - name: Death
+    startFrame: 29
+    frameCount: 12
+    fps: 30
+    loop: 0
+  - name: Idle
+    startFrame: 41
+    frameCount: 80
+    fps: 30
+    loop: 1
+  - name: Running
+    startFrame: 121
+    frameCount: 30
+    fps: 30
+    loop: 1
+  - name: Spawn
+    startFrame: 151
+    frameCount: 88
+    fps: 29.999998
+    loop: 0
+  defaultClip: 3
+  sourcePrefab: {fileID: 919132149155446097, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}
+  sourceClips:
+  - {fileID: -2369485670025405481, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}
+  - {fileID: -3541391417983299662, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}
+  - {fileID: 1881067910185220424, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}
+  - {fileID: 8534037678179333468, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}
+  - {fileID: -1372735270039135212, guid: 87ae31c2b30f7ab4496402e2cfa3d5ea, type: 3}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e460b190e3b4464f9a341bf7310c106, type: 3}
+  m_Name: Dragon_VAT_Data
+  m_EditorClassIdentifier: Assembly-CSharp::VAT.VATAnimationData
+  mesh: {fileID: 4300000, guid: 9f694bec26ea1bd40bb22d175e306207, type: 2}
+  material: {fileID: 2100000, guid: dd302eefb015f5044808831b5bc90a80, type: 2}
+  materials:
+  - {fileID: 2100000, guid: dd302eefb015f5044808831b5bc90a80, type: 2}
+  positionTexture: {fileID: 2800000, guid: 18e325a0eafbb8e4ab3a439f8e6e6494, type: 2}
+  normalTexture: {fileID: 2800000, guid: c16ac78ffb0aa4e4baa4ae56f667cdee, type: 2}
+  vertexCount: 2820
+  clips:
+  - name: Attack
+    startFrame: 0
+    frameCount: 27
+    fps: 29.714285
+    loop: 0
+  - name: Attack2
+    startFrame: 27
+    frameCount: 51
+    fps: 29.999998
+    loop: 0
+  - name: Death
+    startFrame: 78
+    frameCount: 37
+    fps: 29.793102
+    loop: 0
+  - name: Flying
+    startFrame: 115
+    frameCount: 50
+    fps: 29.999998
+    loop: 1
+  - name: Hit
+    startFrame: 165
+    frameCount: 51
+    fps: 29.999998
+    loop: 0
+  defaultClip: 3
+  sourcePrefab: {fileID: 919132149155446097, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}
+  sourceClips:
+  - {fileID: -8721722018038115971, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}
+  - {fileID: 6841991216987856006, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}
+  - {fileID: 1396291781994451658, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}
+  - {fileID: 6715004902463417496, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}
+  - {fileID: -3693655769034393273, guid: 28ef62ea3b5e7414caf0fc06a5c11114, type: 3}

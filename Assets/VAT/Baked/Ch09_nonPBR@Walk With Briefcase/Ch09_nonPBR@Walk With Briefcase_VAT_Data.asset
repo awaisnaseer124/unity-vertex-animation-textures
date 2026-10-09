@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e460b190e3b4464f9a341bf7310c106, type: 3}
+  m_Name: Ch09_nonPBR@Walk With Briefcase_VAT_Data
+  m_EditorClassIdentifier: Assembly-CSharp::VAT.VATAnimationData
+  mesh: {fileID: 4300000, guid: 3006fc0cac844ee46ae9a38f33f8b191, type: 2}
+  material: {fileID: 2100000, guid: 9497853f98e0cb947afccd8c7b048814, type: 2}
+  materials:
+  - {fileID: 2100000, guid: 9497853f98e0cb947afccd8c7b048814, type: 2}
+  positionTexture: {fileID: 2800000, guid: d044ae2a8171f9c4f958f901eb416a8f, type: 2}
+  normalTexture: {fileID: 2800000, guid: 23635c7c53ff35c419fc12ca46472173, type: 2}
+  vertexCount: 17070
+  clips:
+  - name: Walk With Briefcase
+    startFrame: 0
+    frameCount: 31
+    fps: 29.999998
+    loop: 1
+  defaultClip: 0
+  sourcePrefab: {fileID: 919132149155446097, guid: d63feda2a4bba6b40b41fbf1e8c7045a, type: 3}
+  sourceClips:
+  - {fileID: -203655887218126122, guid: d63feda2a4bba6b40b41fbf1e8c7045a, type: 3}
