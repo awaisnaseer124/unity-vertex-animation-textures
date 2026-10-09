@@ -4,7 +4,9 @@ Animate huge crowds in Unity (URP) by baking skeletal animation into textures an
 
 The project includes a baker, an instanced VAT shader and a benchmark scene that compares **Skinned Mesh + Animator** against **VAT** with the same characters.
 
-![Skinned vs VAT at 2,000 characters](Docs/skinned-vs-vat.png)
+[![Skinned vs VAT: 500, 1,000 and 2,000 characters side by side](Docs/skinned-vs-vat.gif)](Docs/skinned-vs-vat.mp4)
+
+*Same scene, 500 → 1,000 → 2,000 characters. Click the animation for the full-quality MP4.*
 
 ## What is VAT?
 
